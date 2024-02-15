@@ -1,0 +1,67 @@
+.docbox-column {
+  float: left;
+  width: 100%;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+  /* padding: 20px; */
+}
+
+.docbox-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.docbox {
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  background: #fff;
+  color: #333;
+  padding: 0px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+  overflow-y: auto;
+  border: 3px solid #58249c;
+}
+
+.addentity-column {
+  float: left;
+  width: 20%;
+  height: 300px;
+  /* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05); */
+  /* padding: 20px; */
+}
+
+.addentity-column .addentity-button {
+  bottom: 20px;
+}
+
+/* .column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+/* .entity-board {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
+  max-width: 120px;
+  margin: 40px auto;
+}
+
+.entity-board .entity {
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+} */

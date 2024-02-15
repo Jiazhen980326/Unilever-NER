@@ -1,0 +1,11 @@
+fake_back_end/data.json
+
+fake_back_end/docs/*
+
+fake_back_end/*.json
+
+front_end/node_modules/*
+
+front_end/data/*
+
+front_end/public/*

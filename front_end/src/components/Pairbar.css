@@ -1,0 +1,56 @@
+.pair-box {
+  width: 90%;
+  height: 50px;
+  margin-left: 10%;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+  background: #fff;
+  color: #333;
+  padding: 0px;
+  border-radius: 4px;
+  border: 2px solid #58249c;
+}
+
+.pair-box:hover {
+  /* transform: rotate(1deg); */
+  background-color: #1ab5ed;
+}
+
+.pair-text {
+  margin-left: 10%;
+  margin-right: 0;
+}
+
+.pair-rel {
+  width: 80%;
+  margin-left: 0;
+  margin-right: 20%;
+}
+
+.column-noshadow {
+  float: left;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 30%;
+}
+
+.middle {
+  width: 10%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dashline {
+  color: #58249c;
+}
